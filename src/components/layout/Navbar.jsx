@@ -1,6 +1,6 @@
-import { FaGithub } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
-import PropTypes from 'prop-types';
+import { FaGithub } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types'
 
 const Navbar = ({ title }) => {
   return (
@@ -32,4 +32,4 @@ Navbar.propTypes = {
   title: PropTypes.string,
 }
 
-export default Navbar;
+export default Navbar
